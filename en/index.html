@@ -4,26 +4,30 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>M365 Storage Policy &amp; Teams Cleanup FAQs - Kuwait University</title>
-  <meta name="description" content="Practical answers for Kuwait University faculty, teaching assistants, staff, and students on KU's Microsoft 365 storage policy (University Council Decision 1/2026), backing up Teams and SharePoint files, and email hygiene.">
+  <meta name="description" content="Practical answers for Kuwait University faculty, teaching assistants, staff, students, and alumni on KU's Microsoft 365 storage policy (University Council Decision 1/2026), backing up Teams and SharePoint files, and email hygiene.">
   <meta name="color-scheme" content="light">
   <link rel="icon" href="../assets/ku-logo.png">
   <link rel="alternate" hreflang="ar" href="../index.html">
   <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
+
+<div class="topbar-wrap">
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <img src="../assets/ku-logo.png" alt="Kuwait University logo">
+        <div class="brand-text">Kuwait University<small>M365 Storage Policy - FAQs</small></div>
+      </div>
+      <a class="lang-toggle" href="../index.html" hreflang="ar" lang="ar">العربية</a>
+    </header>
+  </div>
+</div>
+
 <div class="wrap">
-
-  <header class="topbar">
-    <div class="brand">
-      <img src="../assets/ku-logo.png" alt="Kuwait University logo">
-      <div class="brand-text">Kuwait University<small>M365 Storage Policy - FAQs</small></div>
-    </div>
-    <a class="lang-toggle" href="../index.html" hreflang="ar" lang="ar">العربية</a>
-  </header>
-
   <div class="intro">
     <h1>Microsoft 365 Storage Policy &amp; Teams Cleanup: FAQs</h1>
-    <p>Practical guidance for faculty, teaching assistants, staff, and students under University Council Decision 1/2026.</p>
+    <p>Practical guidance for faculty, teaching assistants, staff, students, and alumni under University Council Decision 1/2026.</p>
     <p class="meta">Last updated: 24/11/2026</p>
   </div>
 
@@ -33,13 +37,13 @@
     <h2 id="start-title">Start here (Urgent action before Wednesday, 25/11/2026)</h2>
     <ol class="steps">
       <li><div><strong>Check which Teams are affected</strong>
-        <p>Automatic deletion on Wednesday, 25/11/2026 applies <strong>only to Class Teams older than 3 years</strong>. Newer Class Teams, department Teams, and committee Teams are <strong>not</strong> included. <a href="#policy">Scope details</a></p></div></li>
-      <li><div><strong>Back up your files before the deadline</strong>
-        <p>Open the Class Team &rarr; <strong>Files</strong> tab &rarr; <strong>Open in SharePoint</strong> &rarr; select folders/files and click <strong>Download</strong> (<code>.zip</code>), or use <strong>Copy to</strong> to save them directly to your personal OneDrive. <a href="#teams-backup">Backup steps</a></p></div></li>
+        <p>Automatic deletion on Wednesday, 25/11/2026 applies <strong>only to Class Teams older than 3 years</strong>. Newer Class Teams, department Teams, and committee Teams are not included in this purge. <a href="#policy">Scope details</a></p></div></li>
+      <li><div><strong>Download your files before the deadline</strong>
+        <p>Open the Class Team &rarr; <strong>Shared</strong> (or <strong>Files</strong>) tab &rarr; select folders/files (or click the select-all circle next to <strong>Name</strong>) and click <strong>Download</strong> (<code>.zip</code>), or copy them to your personal OneDrive via SharePoint. <a href="#teams-backup">Backup steps</a></p></div></li>
       <li><div><strong>Export OneNote &amp; Grades separately</strong>
         <p>Class Notebooks (OneNote) and Assignments/Grades are <strong>not</strong> included in a Files <code>.zip</code> download and must be exported separately. <a href="#onenote-grades">How to export</a></p></div></li>
-      <li><div><strong>Make sure your copy is real—not a shortcut</strong>
-        <p>If you use OneDrive Sync, do not leave backups inside the synced Team folder; copy them into a separate local folder or your personal OneDrive. <a href="#sync-trap">Why this matters</a></p></div></li>
+      <li><div><strong>Notice for Alumni: OneDrive removal 1 year after graduation</strong>
+        <p>Under the approved policy, alumni OneDrive storage is set to <strong>0 GB</strong> and all OneDrive data is automatically deleted 1 year after graduation. <a href="#quotas">Quotas table</a></p></div></li>
     </ol>
   </section>
 
@@ -56,20 +60,21 @@
 
   <section id="policy">
     <h2>Policy &amp; Deletion Scope</h2>
-    <p class="lead">These rules implement University Council Decision No. 1/2026 (dated 22/04/2026) governing Microsoft 365 storage at Kuwait University.</p>
+    <p class="lead">These rules implement University Council Decision No. 1/2026 (dated 22/04/2026) governing the Microsoft 365 Storage Capacity Rationalization Policy at Kuwait University.</p>
 
     <details>
       <summary>Which Teams will be deleted on 25/11/2026, and will this repeat?</summary>
       <div class="answer">
         <p>Automatic deletion applies to <strong>Class Teams older than 3 years</strong>—specifically Teams created using the Microsoft Teams Education <em>Class</em> template.</p>
-        <p>Following the initial cleanup on 25/11/2026, Class Teams older than 3 years will continue to be purged on a rolling/semesterly basis in accordance with University policy.</p>
+        <p>Following the initial cleanup on 25/11/2026, Class Teams older than 3 years will continue to be purged on a rolling basis per University policy. Under the policy, <strong>Moodle</strong> is the canonical platform for course archiving, while Teams is a temporary collaboration tool during the semester.</p>
       </div>
     </details>
 
     <details>
       <summary>Are department, committee, or administrative Teams affected?</summary>
       <div class="answer">
-        <p><strong>No.</strong> The current automated cleanup applies strictly to <strong>Class Teams</strong> older than 3 years. Department Teams, committee workspaces, administrative Teams, and Class Teams under 3 years old are not affected.</p>
+        <p><strong>Not in the 25/11/2026 purge.</strong> The current automated cleanup applies strictly to <strong>Class Teams</strong> older than 3 years.</p>
+        <p>Separately, under the approved policy, non-academic work groups and committee Teams are subject to automatic deletion after <strong>1 year of inactivity</strong>, with Team owners notified <strong>3 months</strong> in advance.</p>
       </div>
     </details>
 
@@ -77,8 +82,8 @@
       <summary>How can I check if a Class Team is older than 3 years?</summary>
       <div class="answer">
         <ol>
-          <li>Open the Team in Microsoft Teams, go to the <strong>Files</strong> tab, and click <strong>Open in SharePoint</strong> to view folder/file creation dates.</li>
-          <li>You can also check the semester code in the Team name (e.g., <code>2022/2023</code>, <code>2023-1</code>, or earlier) or the date of the earliest posts in the <strong>General</strong> channel.</li>
+          <li>Check the semester code in the Team name (e.g., <code>2022/2023</code>, <code>2023-1</code>, or earlier) or the date of the earliest posts in the <strong>General</strong> channel.</li>
+          <li>You can also open the <strong>Shared</strong> (or <strong>Files</strong>) tab and click <strong>Open in SharePoint</strong> to inspect folder creation dates.</li>
         </ol>
         <p class="note">If you are unsure about the age of any Class Team containing important materials, back it up immediately.</p>
       </div>
@@ -94,14 +99,14 @@
     <details>
       <summary>Why is Kuwait University enforcing Team cleanup and storage quotas?</summary>
       <div class="answer">
-        <p>Microsoft Teams, SharePoint, and OneDrive share a single university-wide Microsoft 365 tenant storage pool. Retaining thousands of inactive Class Teams and expired accounts consumes shared capacity and affects service sustainability for the entire University.</p>
+        <p>Microsoft Teams, SharePoint, and OneDrive share a single university-wide Microsoft 365 tenant storage pool that reached near-100% capacity. Retaining thousands of inactive Class Teams and expired accounts puts core digital services at risk for the entire University.</p>
       </div>
     </details>
   </section>
 
   <section id="teams-backup">
     <h2>Backing Up Teams &amp; SharePoint Files</h2>
-    <p class="lead">Choose the method that best fits your file size. For large or video-heavy courses, cloud-to-cloud copying to OneDrive is faster than downloading a ZIP.</p>
+    <p class="lead">Choose the method that best fits your file size. For large or video-heavy courses, cloud-to-cloud copying to OneDrive via SharePoint is faster than downloading a ZIP.</p>
 
     <div class="two-col">
       <div>
@@ -122,17 +127,26 @@
       </div>
     </div>
 
-    <details>
+    <details open>
       <summary>How do I bulk-download all files from a Class Team as a ZIP?</summary>
       <div class="answer">
         <ol>
-          <li>Open the Class Team in Microsoft Teams.</li>
-          <li>Open the <strong>General</strong> channel (and any other channel with files) and select the <strong>Files</strong> (or <strong>Shared</strong>) tab.</li>
-          <li>Click <strong>Open in SharePoint</strong> on the top bar (Microsoft Edge or Google Chrome recommended).</li>
-          <li>Select the folders/files you want (or click the check circle next to the <strong>Name</strong> column header to select all), then click <strong>Download</strong>.</li>
+          <li>Open the Class Team in Microsoft Teams and go to the <strong>General</strong> channel (or any channel with files).</li>
+          <li>Select the <strong>Shared</strong> tab (or <strong>Files</strong> in older Teams versions).</li>
+          <li>Select the folders/files you want (or click the select-all circle next to the <strong>Name</strong> column header), then click <strong>Download</strong>.</li>
           <li>Your browser will package the selection into a <code>.zip</code> file in your Downloads folder.</li>
         </ol>
-        <p class="note">Repeat this for any <strong>additional or private channels</strong> in the same Team, or download large subfolders one by one.</p>
+        <figure>
+          <img src="../assets/teams-shared-folder.jpeg" loading="lazy"
+               alt="Microsoft Teams General channel showing the Shared tab, Class Materials and Recordings folders, and the Download button in the top toolbar.">
+          <figcaption>1. In the <strong>General</strong> channel, open the <strong>Shared</strong> tab, then select folders or open <strong>Class Materials</strong> and click <strong>Download</strong>.</figcaption>
+        </figure>
+        <figure>
+          <img src="../assets/teams-select-all-download.jpeg" loading="lazy"
+               alt="Microsoft Teams Class Materials folder with the select-all circle next to Name checked and the Download button highlighted.">
+          <figcaption>2. To select all files at once, click the check circle next to <strong>Name</strong> and then click <strong>Download</strong>.</figcaption>
+        </figure>
+        <p class="note">Remember to open <strong>Class Materials</strong>, <strong>Recordings</strong>, and any <strong>additional or private channels</strong> in the same Team to download their contents.</p>
         <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/download-files-and-folders-from-onedrive-or-sharepoint-5c7397b7-19c7-4893-84fe-d02e6fa5df05">Microsoft Support — Download files and folders from OneDrive or SharePoint</a></p>
       </div>
     </details>
@@ -144,7 +158,7 @@
           <li>A single bulk download is limited to <strong>10 GB per <code>.zip</code></strong> and <strong>10,000 files</strong>.</li>
           <li>Single-file downloads support up to 250 GB.</li>
         </ul>
-        <p><strong>Workaround:</strong> Download <strong>subfolder by subfolder</strong> (especially separating the <code>Recordings</code> folder), or use SharePoint's <strong>Copy to</strong> feature to copy folders straight into your personal OneDrive.</p>
+        <p><strong>Workaround:</strong> Download <strong>subfolder by subfolder</strong> (especially separating the <code>Recordings</code> folder), or open the library in SharePoint and use <strong>Copy to</strong> to copy folders straight into your personal OneDrive.</p>
       </div>
     </details>
 
@@ -152,12 +166,13 @@
       <summary>How do I copy Team files directly to my personal OneDrive without downloading locally?</summary>
       <div class="answer">
         <ol>
-          <li>From the Team's <strong>Files</strong> tab, click <strong>Open in SharePoint</strong>.</li>
+          <li>From the Team's <strong>Shared / Files</strong> tab, click the three dots (<code>&hellip;</code>) and choose <strong>Open in SharePoint</strong>.</li>
           <li>Select the folders or files you want to keep.</li>
           <li>Click <strong>Copy to</strong> in the top toolbar.</li>
           <li>Select <strong>My files</strong> (your personal OneDrive) or another active Team, create/choose a destination folder (e.g., <code>Course-Archive</code>), and click <strong>Copy here</strong>.</li>
         </ol>
-        <p class="note">Wait for the copy progress indicator in the corner to finish and verify the files appear in your OneDrive before closing the tab.</p>
+        <p class="note">Wait for the copy progress indicator to finish and verify the files appear in your OneDrive before closing the tab.</p>
+        <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/move-or-copy-files-in-sharepoint-00e2f483-4df3-46be-a861-1f5f0c1a87bc">Microsoft Support — Move or copy files in SharePoint</a></p>
       </div>
     </details>
 
@@ -188,6 +203,7 @@
           <li>Open the Class Team &rarr; <strong>Grades</strong> tab &rarr; click <strong>Export to Excel</strong> to download a <code>.csv</code> record of grades.</li>
           <li>If you need student submission files, open the Team's SharePoint library and download the <strong>Student Work</strong> folder if present.</li>
         </ul>
+        <p class="src">Official guides: <a href="https://support.microsoft.com/en-us/office/export-notes-from-onenote-as-a-pdf-13d173b5-7f4c-45a8-94eb-9354d63af5cd">Export notes from OneNote</a> &middot; <a href="https://support.microsoft.com/en-us/topic/export-grades-from-microsoft-teams-to-excel-639be3a0-d1f3-4e0e-8cb4-3f936818648f">Export grades from Teams to Excel</a></p>
       </div>
     </details>
 
@@ -195,9 +211,10 @@
       <summary>Where are Teams meeting recordings stored, and how do I keep them?</summary>
       <div class="answer">
         <ul>
-          <li><strong>Channel meetings:</strong> Stored inside the <code>Recordings</code> folder in that channel's <strong>Files</strong> tab (SharePoint). These <strong>will be deleted</strong> with the Team—download or copy them to your personal OneDrive.</li>
+          <li><strong>Channel meetings:</strong> Stored inside the <code>Recordings</code> folder in that channel's <strong>Shared / Files</strong> tab (SharePoint). These <strong>will be deleted</strong> with the Team—download or copy them to your personal OneDrive.</li>
           <li><strong>Non-channel / calendar meetings:</strong> Stored in the <code>Recordings</code> folder of the personal OneDrive of the person who started the recording. These are not deleted with the Team, though they count toward personal OneDrive quota.</li>
         </ul>
+        <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/play-and-share-a-meeting-recording-in-microsoft-teams-7d7e5dc5-9ae4-4b94-8589-27496037e8fa">Microsoft Support — Teams meeting recordings storage</a></p>
       </div>
     </details>
 
@@ -205,7 +222,7 @@
       <summary>What about the "Class Materials" folder and channel Posts?</summary>
       <div class="answer">
         <ul>
-          <li>The <strong>Class Materials</strong> folder lives inside the Team's SharePoint document library and can be downloaded or copied like any other folder.</li>
+          <li>The <strong>Class Materials</strong> folder lives inside the Team's document library and can be downloaded or copied like any other folder.</li>
           <li>Channel <strong>Posts / Chat</strong> conversations are not included in SharePoint file downloads. If you need specific announcements or text, copy them or print the page to PDF before deletion.</li>
         </ul>
       </div>
@@ -213,57 +230,128 @@
   </section>
 
   <section id="quotas">
-    <h2>OneDrive Storage Quotas &amp; Account Retention</h2>
-    <p class="lead">OneDrive storage quotas and retention windows apply by role across Kuwait University.</p>
+    <h2>Storage Quotas &amp; Retention (University Council Decision 1/2026)</h2>
+    <p class="lead">Approved Microsoft 365 quotas and retention windows by role at Kuwait University:</p>
 
+    <h3 class="group">1. OneDrive Storage Quotas</h3>
     <div class="table-wrap">
       <table>
         <thead>
           <tr>
-            <th>Role</th>
+            <th>Category</th>
             <th>OneDrive Quota</th>
             <th>Retention &amp; Cleanup Policy</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong>Students</strong></td>
-            <td>150 GB</td>
-            <td>Active during enrollment; reduced to alumni quota after graduation.</td>
-          </tr>
-          <tr>
-            <td><strong>Alumni</strong></td>
-            <td>5 GB</td>
-            <td>Subject to rolling batch cleanup with advance email notice and backup window.</td>
-          </tr>
-          <tr>
-            <td><strong>Faculty, Staff &amp; Departments</strong></td>
+            <td><strong>Faculty &amp; Employees</strong></td>
             <td>0.5 TB (500 GB)</td>
-            <td>Active during employment.</td>
+            <td>Active; 3-year retention (based on last modified/accessed date).</td>
+          </tr>
+          <tr>
+            <td><strong>Students</strong></td>
+            <td>50 GB</td>
+            <td>Active; 2-year retention.</td>
           </tr>
           <tr>
             <td><strong>Retired Faculty</strong></td>
-            <td>—</td>
-            <td>1-year OneDrive retention with monthly reminders (weekly in the final month); 3-month extension or official exception requests via <a href="mailto:avpit@ku.edu.kw">avpit@ku.edu.kw</a>.</td>
+            <td>100 GB</td>
+            <td>3-year retention.</td>
+          </tr>
+          <tr>
+            <td><strong>Alumni (Graduates)</strong></td>
+            <td>0 GB</td>
+            <td><strong>OneDrive service is removed and all data is deleted 1 year after graduation</strong> (with advance notice).</td>
+          </tr>
+          <tr>
+            <td><strong>Terminated Employees</strong></td>
+            <td>0 GB</td>
+            <td>1-year grace period to hand over work files to department head and back up personal files before sweep.</td>
+          </tr>
+          <tr>
+            <td><strong>Guests</strong></td>
+            <td>50 GB</td>
+            <td>1-year retention.</td>
           </tr>
         </tbody>
       </table>
     </div>
+
+    <h3 class="group">2. Exchange Email &amp; Online Archive Quotas</h3>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>Mailbox</th>
+            <th>Online Archive</th>
+            <th>Retention Period</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Faculty</strong></td>
+            <td>100 GB</td>
+            <td>1.5 TB</td>
+            <td>3 years in mailbox / 6 years in Archive</td>
+          </tr>
+          <tr>
+            <td><strong>Employees</strong></td>
+            <td>50 GB</td>
+            <td>1.5 TB</td>
+            <td>3 years in mailbox / 6 years in Archive</td>
+          </tr>
+          <tr>
+            <td><strong>Students</strong></td>
+            <td>10 GB</td>
+            <td>100 GB</td>
+            <td>2 years in mailbox / 6 years in Archive</td>
+          </tr>
+          <tr>
+            <td><strong>Retired Faculty</strong></td>
+            <td>10 GB</td>
+            <td>50 GB</td>
+            <td>3 years in mailbox / 6 years in Archive</td>
+          </tr>
+          <tr>
+            <td><strong>Alumni &amp; Guests</strong></td>
+            <td>5 GB</td>
+            <td>50 GB</td>
+            <td>1 year in mailbox / 2 years in Archive</td>
+          </tr>
+          <tr>
+            <td><strong>Terminated Employees</strong></td>
+            <td>0 GB</td>
+            <td>0 GB</td>
+            <td>1 year (off-boarding grace period)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Department and center administrative mailboxes are converted to <strong>Shared Mailboxes</strong> (50 GB / 2-year retention).</p>
+
+    <details>
+      <summary>Are exceptions available for special-nature colleges or research projects?</summary>
+      <div class="answer">
+        <p><strong>Yes.</strong> Exceptions may be granted for:</p>
+        <ul>
+          <li>Special-nature colleges (e.g., College of Architecture handling large CAD/engineering files).</li>
+          <li>Academic research projects requiring exceptional storage capacity.</li>
+          <li>Archive units handling large multimedia collections.</li>
+        </ul>
+        <p><strong>How to apply:</strong> Submit a written, justified request approved by the department or center head to the <strong>Kuwait University Center of Information Systems (KUCIS)</strong> for review and approval (or contact <a href="mailto:avpit@ku.edu.kw">avpit@ku.edu.kw</a>).</p>
+      </div>
+    </details>
 
     <details>
       <summary>How do I check my current storage usage in OneDrive or SharePoint?</summary>
       <div class="answer">
         <ul>
           <li><strong>In OneDrive:</strong> Open OneDrive on the web &rarr; <strong>Settings</strong> (gear icon) &rarr; <strong>OneDrive settings</strong> &rarr; <strong>More settings</strong> &rarr; <strong>Storage Metrics</strong>.</li>
-          <li><strong>In SharePoint / Teams:</strong> Open the Team in SharePoint &rarr; <strong>Settings</strong> (gear icon) &rarr; <strong>Site contents</strong> &rarr; <strong>Site settings</strong> &rarr; <strong>Storage Metrics</strong> to identify the largest folders.</li>
+          <li><strong>In SharePoint / Teams:</strong> Open the Team in SharePoint &rarr; <strong>Settings</strong> (gear icon) &rarr; <strong>Site contents</strong> &rarr; <strong>Site settings</strong> &rarr; <strong>Storage Metrics</strong>.</li>
         </ul>
-      </div>
-    </details>
-
-    <details>
-      <summary>What happens if I exceed my OneDrive storage quota?</summary>
-      <div class="answer">
-        <p>Accounts exceeding their allocated quota may become <strong>read-only</strong>, preventing new uploads, edits, or syncing until you delete unnecessary files and empty the Recycle Bin.</p>
+        <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/manage-your-onedrive-for-work-or-school-storage-31519161-059c-4764-b6f8-f5cd29f7fe68">Microsoft Support — Manage your OneDrive storage</a></p>
       </div>
     </details>
   </section>
@@ -274,12 +362,12 @@
 
     <div class="two-col">
       <div>
-        <h3>Online "Archive" Folder</h3>
-        <p>Moving emails to the built-in <strong>Archive</strong> folder keeps them on the Exchange server and <strong>frees zero mailbox quota</strong>—it only declutters your Inbox.</p>
+        <h3>Built-in "Archive" Folder</h3>
+        <p>Moving emails to the regular <strong>Archive</strong> folder keeps them inside your primary mailbox and <strong>frees zero quota</strong>—it only declutters your Inbox.</p>
       </div>
       <div>
-        <h3>Local <code>.pst</code> Archive</h3>
-        <p>Exporting old mail to a local <code>.pst</code> file in Classic Outlook and deleting those items from the server actually frees mailbox space (keep <code>.pst</code> backups locally, not inside OneDrive).</p>
+        <h3>Online Archive &amp; Local <code>.pst</code></h3>
+        <p>Items older than your mailbox retention period auto-move to your dedicated <strong>Online Archive</strong> (see table above). Alternatively, Classic Outlook can export old mail to a local <code>.pst</code> file (never store <code>.pst</code> files inside OneDrive).</p>
       </div>
     </div>
 
@@ -288,7 +376,7 @@
       <div class="answer">
         <ul>
           <li>Sending files as attachments duplicates them in both the sender's Sent Items and every recipient's mailbox.</li>
-          <li><strong>Better practice:</strong> Save important documents in OneDrive or SharePoint and share a <strong>link</strong> instead of attaching the file, then delete emails with oversized attachments once the file is safely stored.</li>
+          <li><strong>Better practice:</strong> Save important documents in OneDrive or SharePoint and share a <strong>link</strong> instead of attaching the file, then delete emails with oversized attachments once the file is safely stored. (Under KU policy, attachments sent to more than 5 recipients or distribution lists are automatically converted to OneDrive links.)</li>
         </ul>
       </div>
     </details>
@@ -317,21 +405,21 @@
         <ol>
           <li>Click the <strong>Settings</strong> (gear icon) at the top right.</li>
           <li>Go to <strong>Accounts &rarr; Storage</strong>.</li>
-          <li>Review folder-by-folder usage and use the built-in cleanup options to empty older messages (e.g., older than 3, 6, or 12 months).</li>
+          <li>Review folder-by-folder usage and use the built-in cleanup options to empty older messages.</li>
         </ol>
         <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/storage-limits-in-outlook-com-7ac99134-69e5-4619-ac0b-2d313bba5e9e">Microsoft Support — Storage limits in Outlook</a></p>
       </div>
     </details>
 
     <details>
-      <summary>How do I use Mailbox Cleanup or local <code>.pst</code> export in Classic Outlook?</summary>
+      <summary>How do I use Mailbox Cleanup or remove attachments only in Classic Outlook?</summary>
       <div class="answer">
         <ul>
           <li><strong>Mailbox Cleanup:</strong> Go to <strong>File &rarr; Tools &rarr; Mailbox Cleanup</strong> to locate oversized or old items.</li>
           <li><strong>Remove attachment only (keep email text):</strong> Open the email in its own window &rarr; click the dropdown arrow on the attachment &rarr; <strong>Remove Attachment</strong> &rarr; save.</li>
-          <li><strong>Local <code>.pst</code> export:</strong> Go to <strong>File &rarr; Open &amp; Export &rarr; Import/Export &rarr; Export to a file (<code>.pst</code>)</strong>. Do not store <code>.pst</code> files inside synced OneDrive folders.</li>
+          <li><strong>Local <code>.pst</code> export:</strong> Go to <strong>File &rarr; Open &amp; Export &rarr; Import/Export &rarr; Export to a file (<code>.pst</code>)</strong>, subject to university device permissions.</li>
         </ul>
-        <p class="note">Local <code>.pst</code> export availability depends on device permissions and university IT security policies.</p>
+        <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/reduce-the-size-of-your-mailbox-and-outlook-data-files-pst-and-ost-e4c6a4f1-d39c-47dc-a4fa-abe96dc8c7ef">Microsoft Support — Reduce the size of your mailbox</a></p>
       </div>
     </details>
 
@@ -353,7 +441,7 @@
     <details>
       <summary>Where should I store reusable course materials and research files?</summary>
       <div class="answer">
-        <p>Keep your master course materials and research files in your <strong>personal OneDrive</strong> or a <strong>Department SharePoint/Team</strong>, and copy only term-specific materials into each semester's Class Team. That way, your master files are never affected by the 3-year Class Team cleanup.</p>
+        <p>Keep your master course materials and research files in your <strong>personal OneDrive</strong> or <strong>Moodle</strong> (the canonical platform for course content), and copy only term-specific materials into each semester's Class Team. That way, your master files are never affected by the 3-year Class Team cleanup.</p>
       </div>
     </details>
 
@@ -361,10 +449,10 @@
       <summary>Do the Recycle Bin and File Version History count against my storage?</summary>
       <div class="answer">
         <ul>
-          <li><strong>Yes.</strong> Deleted files remain in the OneDrive/SharePoint <strong>Recycle Bin</strong> (and Second-stage Recycle Bin) and continue counting toward your quota until emptied or expired.</li>
+          <li><strong>Yes.</strong> Deleted files remain in the OneDrive/SharePoint <strong>Recycle Bin</strong> and continue counting toward your quota until emptied or expired.</li>
           <li><strong>Version History:</strong> Repeatedly editing large files (such as presentations or videos) stores multiple historical versions in SharePoint/OneDrive. Right-click a large file &rarr; <strong>Version History</strong> to delete unneeded older versions.</li>
         </ul>
-        <p class="src">Official guide: <a href="https://support.microsoft.com/en-us/office/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f">Microsoft Support — Manage Recycle Bin in OneDrive</a></p>
+        <p class="src">Official guides: <a href="https://support.microsoft.com/en-us/office/restore-deleted-files-or-folders-in-onedrive-949ada80-0026-4db3-a953-c99083e6a84f">Manage Recycle Bin in OneDrive</a> &middot; <a href="https://support.microsoft.com/en-us/office/view-the-version-history-of-an-item-or-file-in-a-sharepoint-list-or-library-532620a7-51f3-4d94-a578-31a85f70831d">SharePoint Version History</a></p>
       </div>
     </details>
 
@@ -383,7 +471,7 @@
   <section id="help">
     <h2>Support &amp; Official Documentation</h2>
     <div class="body">
-      <p>For questions about storage policy, extension/exception requests, or backup assistance, please contact the Office of the Assistant Vice President for Information Technology at <a href="mailto:avpit@ku.edu.kw">avpit@ku.edu.kw</a>.</p>
+      <p>For questions about storage policy, exception requests, or backup assistance, please contact the Office of the Assistant Vice President for Information Technology at <a href="mailto:avpit@ku.edu.kw">avpit@ku.edu.kw</a>.</p>
     </div>
   </section>
 
